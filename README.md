@@ -1,40 +1,22 @@
 # Job Application Tracker
 
-A full-stack web application to help users organize and track their job applications, statuses, company info, and interview notes in one place.
+A full-stack MERN application to manage and track job applications.
 
-## 🔧 Features
+## Features
+- View all applications
+- Add a new job
+- Track status
 
-- User authentication (login/register)
-- Add, edit, or delete job applications
-- Track application status (Applied, Interviewing, Offer, Rejected, etc.)
-- Notes section for each application
-- Responsive design for mobile and desktop
+## Setup Instructions
 
-## 🛠️ Built With
+### Backend
+1. Navigate to `/server`
+2. Run `npm install`
+3. Run `node server.js` (MongoDB must be running locally)
 
-- **Frontend:** React, Tailwind CSS
-- **Backend:** Node.js, Express
-- **Database:** MongoDB (Mongoose)
-- **Authentication:** JWT
+### Frontend
+1. Navigate to `/client`
+2. Run `npm install`
+3. Run `npm start`
 
-## 📸 Screenshots
-
-*Coming soon*
-
-## 📦 Installation
-
-```bash
-# Clone the repo
-git clone https://github.com/sadikun1/job-application-tracker.git
-cd job-application-tracker
-
-# Install backend dependencies
-cd server
-npm install
-
-# Install frontend dependencies
-cd ../client
-npm install
-
-# Start both servers
-npm run dev
+Make sure backend is running on port 5000.
